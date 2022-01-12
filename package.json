@@ -4,7 +4,8 @@
    "description": "",
    "main": "index.js",
    "scripts": {
-      "format": "prettier --write \"src/**/*.{js,jsx,css,scss}\""
+      "format": "prettier --write \"src/**/*.{js,jsx,css,scss,html}\"",
+      "lint": "eslint \"src/**/*.{js,jsx,css,scss,html}\" --quiet"
    },
    "repository": {
       "type": "git",
@@ -18,6 +19,8 @@
    },
    "homepage": "https://github.com/NOKONO/NokonoWebsite#readme",
    "devDependencies": {
+      "eslint": "^8.6.0",
+      "eslint-config-prettier": "^8.3.0",
       "prettier": "^2.5.1"
    }
 }
