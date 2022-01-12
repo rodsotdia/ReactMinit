@@ -1,0 +1,23 @@
+{
+   "name": "nokono-website",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "format": "prettier --write \"src/**/*.{js,jsx,css,scss}\""
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/NOKONO/NokonoWebsite.git"
+   },
+   "keywords": [],
+   "author": "Rod Sot <hi@rodsot.com>",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/NOKONO/NokonoWebsite/issues"
+   },
+   "homepage": "https://github.com/NOKONO/NokonoWebsite#readme",
+   "devDependencies": {
+      "prettier": "^2.5.1"
+   }
+}
