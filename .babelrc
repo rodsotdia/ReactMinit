@@ -1,0 +1,6 @@
+{
+   "presets": [
+      "@babel/preset-env", // Working with modern JavaScript
+      "@babel/preset-react" // Working with react syntax
+   ]
+}
