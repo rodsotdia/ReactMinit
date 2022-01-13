@@ -1,0 +1,19 @@
+{
+   // DOCS: https://code.visualstudio.com/docs/languages/jsconfig
+   "compilerOptions": {
+      "target": "esnext",
+      "allowSyntheticDefaultImports": false,
+      "baseUrl": "./",
+      "paths": {
+         "~/*": ["src/*"],
+         "@components/*": ["src/components/*"],
+         "@containers/*": ["src/containers/*"],
+         "@styles/*": ["src/styles/*"],
+         "@pages/*": ["src/pages/*"],
+         "@routes/*": ["src/routes/*"],
+         "@images/*": ["src/assets/images/*"],
+         "@icons/*": ["src/assets/icons/*"]
+      }
+   },
+   "exclude": ["node_modules", "dist"]
+}

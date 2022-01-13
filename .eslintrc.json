@@ -1,7 +1,7 @@
 {
    "extends": [
       "eslint:recommended",
-      "plugin:import/errors",
+      "plugin:import/recommended",
       "plugin:react/recommended",
       "plugin:jsx-a11y/recommended",
       "plugin:react-hooks/recommended",
@@ -28,6 +28,18 @@
       "import/resolver": {
          "node": {
             "paths": ["src"],
+            "extensions": [".js", ".jsx"]
+         },
+         "alias": {
+            "map": [
+               ["@components", "./src/components"],
+               ["@containers", "./src/containers"],
+               ["@styles", "./src/styles"],
+               ["@pages", "./src/pages"],
+               ["@routes", "./src/routes"],
+               ["@images", "src/assets/images"],
+               ["@icons", "src/assets/icons"]
+            ],
             "extensions": [".js", ".jsx"]
          }
       },
