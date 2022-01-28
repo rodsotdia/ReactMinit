@@ -1,4 +1,4 @@
-# Nokono Website
+# React Boilerplate
 
 ## Comandos
 
