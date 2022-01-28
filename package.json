@@ -1,5 +1,5 @@
 {
-   "name": "nokono-website",
+   "name": "react-boilerplate",
    "version": "1.0.0",
    "description": "",
    "main": "index.js",
@@ -11,15 +11,15 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/NOKONO/NokonoWebsite.git"
+      "url": "git+https://github.com/rodsotdia/ReactBoilerplate.git"
    },
    "keywords": [],
    "author": "Rod Sot <hi@rodsot.com>",
    "license": "ISC",
    "bugs": {
-      "url": "https://github.com/NOKONO/NokonoWebsite/issues"
+      "url": "https://github.com/rodsotdia/ReactBoilerplate/issues"
    },
-   "homepage": "https://github.com/NOKONO/NokonoWebsite#readme",
+   "homepage": "https://github.com/rodsotdia/ReactBoilerplate#readme",
    "devDependencies": {
       "@babel/core": "^7.16.7",
       "@babel/preset-env": "^7.16.8",
