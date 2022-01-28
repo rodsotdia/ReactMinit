@@ -37,8 +37,8 @@
                ["@styles", "./src/styles"],
                ["@pages", "./src/pages"],
                ["@routes", "./src/routes"],
-               ["@images", "src/assets/images"],
-               ["@icons", "src/assets/icons"]
+               ["@images", "./src/assets/images"],
+               ["@icons", "./src/assets/icons"]
             ],
             "extensions": [".js", ".jsx"]
          }
