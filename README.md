@@ -1,27 +1,30 @@
-# React Boilerplate
+# ReactMinit
+A personal minimal boilerplate for react, to start any project from scratch.
 
-## Comandos
+## Commands
 
-Formatear codigo. Utiliza el plugin Prettier. Se recomienda configurar en VS code para que se utilice la configuracion Prettier del proyecto, y que formatee cuando se guarden los cambios.
+Code format, it uses Prettier. It is recommended to set up in VS Code to use the Prettier config of the project, and format when changes are saved.
 
 ```
 npm run format
 ```
 
-Lintear codigo. Revisar errores y otros problemas. Utiliza el plugin ESLint. Se recomienda configurar en VS code para que se utilice la configuracion ESLint del proyecto, y que formatee cuando se guarden los cambios.
+Code lint. Check errors and other issues, it uses ESLint. It is recommended to set up in VS Code to use the ESLint config of the project.
 
 ```
 npm run lint
 ```
 
-Arrancar servidor de desarrollo. Utiliza Webpack.
+Run dev server. It uses Webpack.
 
 ```
 npm run start
 ```
 
-Compilar build para produccion. Utiliza Webpack.
+Compile for production. It uses Webpack.
 
 ```
 npm run build
 ```
+
+*This is a work in progress*
